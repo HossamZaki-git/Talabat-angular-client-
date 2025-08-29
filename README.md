@@ -8,9 +8,9 @@ This Angular frontend integrates with a backend API to simulate a checkout and p
 
 ## Setup instructions
 
-1. Clone the repo  
+1. Clone the repo using the code ```bash git clone https://github.com/HossamZaki-git/Talabat-angular-client.git```
 2. Use Node.js version `16.20.0`  
-3. Install angular cli locally inside the folder
+3. Install angular cli 14 locally inside the folder of the project using the command ```bash npm install @angular/cli@14 --save-dev```
 4. Open `src/app/checkout/checkout-payment/checkout-payment.component.ts`  
    At line 37, replace the Stripe key with your own:
 
